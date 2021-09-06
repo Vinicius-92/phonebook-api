@@ -11,6 +11,7 @@ namespace PhonebookAPI.Profiles
             CreateMap<CreatePersonDto, Person>();
             CreateMap<Person, PersonCreatedResponse>();
             CreateMap<CreatePhonenumberDto, PhoneNumber>();
+            CreateMap<Person, PersonReturnWithNumbers>();
         }
     }
 }

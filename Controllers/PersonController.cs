@@ -23,17 +23,17 @@ namespace PhonebookAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PersonCreatedResponse>>> ReturnAll()
+        public async Task<ActionResult<IEnumerable<PersonReturnWithNumbers>>> ReturnAll()
         {
             var listOfPeopleRegistered = await _phonebookService.ReturnAllPeople();
-            return Ok(_mapper.Map<List<PersonCreatedResponse>>(listOfPeopleRegistered));
+            return Ok(_mapper.Map<List<PersonReturnWithNumbers>>(listOfPeopleRegistered));
         }
 
         [HttpGet("{id}", Name = "ReturnPersonById")]
-        public async Task<ActionResult<PersonCreatedResponse>> ReturnPersonById(int id)
+        public async Task<ActionResult<PersonReturnWithNumbers>> ReturnPersonById(int id)
         {
             var personReturned = await _phonebookService.ReturnPersonById(id);
-            return Ok(_mapper.Map<PersonCreatedResponse>(personReturned));
+            return Ok(_mapper.Map<PersonReturnWithNumbers>(personReturned));
         }
 
         [HttpPost]
@@ -59,7 +59,6 @@ namespace PhonebookAPI.Controllers
             await _phonebookService.AddPhonenumberToPerson(phoneNumberToAdd, id);
             return Ok();
         }
-
     }
 }
 
