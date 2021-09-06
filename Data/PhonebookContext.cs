@@ -9,7 +9,9 @@ namespace PhonebookAPI.Data
         {
             modelBuilder.Entity<Person>()
                 .HasMany(p => p.Phones)
-                .WithOne(p => p.Person);
+                .WithOne(p => p.Person)
+                .HasForeignKey(x => x.PersonId);
+
         }
         public PhonebookContext(DbContextOptions<PhonebookContext> options) : base(options)
         {

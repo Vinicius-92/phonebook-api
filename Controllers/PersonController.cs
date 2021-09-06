@@ -44,6 +44,22 @@ namespace PhonebookAPI.Controllers
             var personCreatedResponse = _mapper.Map<PersonCreatedResponse>(personModelToCreate);
             return CreatedAtRoute(nameof(ReturnPersonById), new { Id = personCreatedResponse.Id }, personCreatedResponse);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePersonById(int id)
+        {
+            await _phonebookService.DeleteById(id);
+            return NoContent();
+        }
+
+        [HttpPost("{id}")]
+        public async Task<IActionResult> AddPhonenumberToPerson(CreatePhonenumberDto phoneNumberDto, int id)
+        {
+            var phoneNumberToAdd = _mapper.Map<PhoneNumber>(phoneNumberDto);
+            await _phonebookService.AddPhonenumberToPerson(phoneNumberToAdd, id);
+            return Ok();
+        }
+
     }
 }
 

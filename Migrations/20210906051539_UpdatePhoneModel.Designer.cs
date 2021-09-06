@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PhonebookAPI.Data;
 
 namespace PhonebookAPI.Migrations
 {
     [DbContext(typeof(PhonebookContext))]
-    partial class PhonebookContextModelSnapshot : ModelSnapshot
+    [Migration("20210906051539_UpdatePhoneModel")]
+    partial class UpdatePhoneModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,7 +51,7 @@ namespace PhonebookAPI.Migrations
                     b.Property<string>("Number")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("PersonId")
+                    b.Property<int?>("PersonId")
                         .HasColumnType("int");
 
                     b.Property<int>("PhoneType")
@@ -66,9 +68,7 @@ namespace PhonebookAPI.Migrations
                 {
                     b.HasOne("PhonebookAPI.Models.Person", "Person")
                         .WithMany("Phones")
-                        .HasForeignKey("PersonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PersonId");
                 });
 #pragma warning restore 612, 618
         }
