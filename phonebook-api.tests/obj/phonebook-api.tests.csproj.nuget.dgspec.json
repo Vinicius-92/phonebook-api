@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj": {}
+    "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj": {
+    "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj",
+        "projectUniqueName": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj",
         "projectName": "phonebook-api.tests",
-        "projectPath": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj",
+        "projectPath": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\phonebook-api.tests.csproj",
         "packagesPath": "C:\\Users\\vsav\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\obj\\",
+        "outputPath": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vsav\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj": {
-                "projectPath": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj"
+              "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj": {
+                "projectPath": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj": {
+    "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj",
         "projectName": "PhonebookAPI",
-        "projectPath": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj",
+        "projectPath": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\PhonebookAPI.csproj",
         "packagesPath": "C:\\Users\\vsav\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\obj\\",
+        "outputPath": "C:\\Users\\vsav\\OneDrive - GFT Technologies SE\\Documents\\PhonebookSln\\phonebook-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vsav\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -122,23 +122,39 @@
             },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

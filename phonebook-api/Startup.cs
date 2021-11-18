@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using PhonebookAPI.Data;
 using PhonebookAPI.Services;
 
@@ -34,7 +35,13 @@ namespace PhonebookAPI
                     .UseMySql(urlConnection, sqlServer));
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+            services.AddSwaggerGen(options => {
+                options.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Phonebook Api"
+                });
+            });
             services.AddScoped<IPhonebookService, PhonebookServices>();
         }
 
@@ -44,7 +51,15 @@ namespace PhonebookAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
+
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                options.RoutePrefix = string.Empty;
+            });
 
             app.UseHttpsRedirection();
 

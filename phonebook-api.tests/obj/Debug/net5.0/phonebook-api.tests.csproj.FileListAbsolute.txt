@@ -116,7 +116,14 @@ c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-ap
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\MySqlConnector.dll
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
-c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Pomelo.JsonObject.dll
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\PhonebookAPI.dll
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\PhonebookAPI.pdb
 c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Humanizer.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\PhonebookAPI.xml

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = phonebook_api.tests
-build_property.ProjectDir = c:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\
+build_property.ProjectDir = C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\
