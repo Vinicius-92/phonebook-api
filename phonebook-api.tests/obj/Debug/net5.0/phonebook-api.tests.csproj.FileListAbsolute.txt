@@ -127,3 +127,8 @@ C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-ap
 C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\PhonebookAPI.xml
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Autofac.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Autofac.Extras.Moq.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Moq.dll
+C:\Users\vsav\OneDrive - GFT Technologies SE\Documents\PhonebookSln\phonebook-api.tests\bin\Debug\net5.0\Moq.AutoMock.dll

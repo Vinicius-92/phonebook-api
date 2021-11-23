@@ -18,7 +18,11 @@ namespace PhonebookAPI.Data
         {
         }
 
-        public DbSet<Person> People { get; set; }
+        protected PhonebookContext()
+        {
+        }
+
+        public virtual DbSet<Person> People { get; set; }
         public DbSet<PhoneNumber> Phones { get; set; }
         public DbContextOptions<PhonebookContext> Options { get; }
     }

@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using PhonebookAPI.Data;
 using PhonebookAPI.Models;
-using PhonebookAPI.Models.Dtos;
 
 namespace PhonebookAPI.Services
 {
