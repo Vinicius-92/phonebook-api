@@ -51,7 +51,7 @@ POST - Add phone number to person:
 JSON required in body:
 ```json
 {
-     "phoneType": 1,
+    "phoneType": 1,
     "number": "99635-9084"
 }
 ```
